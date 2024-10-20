@@ -9,10 +9,11 @@ import lombok.Data;
 @Data
 @Entity
 public class Question {
+    //SELECT setval('question_id_seq', (SELECT MAX(id) FROM question));
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    private String questionTitle;
+    private String questiontitle;
     private String option1;
     private String option2;
     private String option3;
