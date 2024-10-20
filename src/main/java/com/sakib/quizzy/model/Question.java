@@ -1,4 +1,4 @@
-package com.sakib.quizzy;
+package com.sakib.quizzy.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

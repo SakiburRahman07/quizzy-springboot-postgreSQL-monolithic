@@ -1,6 +1,6 @@
 package com.sakib.quizzy.service;
 
-import com.sakib.quizzy.Question;
+import com.sakib.quizzy.model.Question;
 import com.sakib.quizzy.dao.QuestionDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

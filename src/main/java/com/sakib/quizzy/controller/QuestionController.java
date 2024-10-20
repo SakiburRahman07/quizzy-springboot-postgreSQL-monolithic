@@ -1,6 +1,6 @@
 package com.sakib.quizzy.controller;
 
-import com.sakib.quizzy.Question;
+import com.sakib.quizzy.model.Question;
 import com.sakib.quizzy.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
